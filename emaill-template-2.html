@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>OTP Email Template</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    text-align: left;
+  }
+
+  .body {
+    padding: 10px;
+  }
+
+  .otp {
+    width: 100%;
+  }
+
+  .social-media {
+    display: none;
+  }
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  background-color: #00466a;
+  color: #fff;
+  padding: 20px;
+}
+
+.header {
+  background-color: #00466a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.body {
+  padding: 20px;
+}
+
+.otp {
+  background-image: linear-gradient(to right, #00466a, #009688, #00b3af);
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, #00466a, #009688, #00b3af);
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  color: #00466a;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.social-media a:hover {
+  background-color: #00466a;
+  color: #fff;
+}
+
+</style>
+</head>
+<body>
+<div class="container gradient">
+  <div class="header">
+    <h1 class="title">OTP Email Template</h1>
+    <img src="/email.png" class="logo" />
+  </div>
+  <div class="body">
+    <p>Hi,</p>
+    <p>This is an email to confirm your account. Your one-time password (OTP) is:</p>
+    <p class="otp">123456</p>
+    <p>Please enter this OTP to complete your account verification.</p>
+  </div>
+  <div class="footer">
+    <p>Copyright © 2023 Your Brand</p>
+    <div class="social-media">
+      <img href="https://www.instagram.com/yourbrand" src="/instagram.png"><i class="fa fa-instagram"></i>
+      &nbsp;&nbsp;&nbsp;
+      <img href="https://www.linkedin.com/company/yourbrand" src="/linkedin.png"><i class="fa fa-linkedin"></i>
+      &nbsp;&nbsp;&nbsp;
+      <img href="https://www.facebook.com/yourbrand" src="/facebook.png"><i class="fa fa-facebook"></i>
+    </div>
+  </div>
+</div>
+</body>
+</html>
